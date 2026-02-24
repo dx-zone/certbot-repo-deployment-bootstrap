@@ -1,3 +1,7 @@
+![CI](https://github.com/dx-zone/certbot-repo-deployment-bootstrap/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
+![Release](https://img.shields.io/github/v/release/dx-zone/certbot-repo-deployment-bootstrap)
+
 # 🏗️ Certbot Repo Deployment Bootstrapper
 
 ### *Enterprise-Grade Automation for PKI & Repository Management*
