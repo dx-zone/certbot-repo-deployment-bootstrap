@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2546" height="3979.4" version="1.1" viewBox="0 0 2546 3979.4" xmlns="http://www.w3.org/2000/svg">
+ <!-- svg-source:excalidraw -->
+ <defs>
+  <style class="style-fonts">@font-face { font-family: Excalifont; src: url(https://esm.sh/@excalidraw/excalidraw/dist/prod/fonts/Excalifont/Excalifont-Regular-a88b72a24fb54c9f94e3b5fdaa7481c9.woff2); }</style>
+ </defs>
+ <rect width="2546" height="3979.4" fill="#fff"/>
+ <g transform="translate(290.56 451.22) rotate(0 84 73.5)" stroke-linecap="round">
+  <path d="m32 0c40.52 0.63 80.84 1.6 104 0m-104 0c35.43 0.67 72.14-0.28 104 0 20.03 1.79 33.64 10.69 32 32m-32-32c21.72-1.82 30.05 10.62 32 32-0.33 27.3-0.45 55.35 0 83m0-83c0.42 24.28-0.38 49.18 0 83 1.25 20.52-11.87 32.8-32 32m32-32c-1.87 20.8-11.49 30.34-32 32-41.48 1.73-79.45 0.63-104 0m104 0c-29.73 0.43-58.86 0.38-104 0-20.95-1.67-31.01-9.48-32-32m32 32c-22.09-2.26-30.98-10.89-32-32 0.67-20.8-0.72-43.16 0-83m0 83c0.05-19.52 0.25-37.33 0-83-0.53-21.62 12.59-32.19 32-32m-32 32c1.58-23.03 10.43-34.08 32-32" fill="none" stroke="#1971c2" stroke-width="2"/>
+ </g>
+ <g transform="translate(322.56 512.22) rotate(0 49.67 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#1971c2" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">Deploy VM</text>
+ </g>
+ <g mask="url(#mask-amzXOc8ITvC8ZUDOH-ljH)" stroke-linecap="round">
+  <g transform="translate(469.56 502.91) rotate(0 120.65 -142.7)">
+   <path d="m-0.3-0.29c39.83-47.37 199.69-235.96 239.79-283.09m-237.75 281.89c40.14-47.78 200.26-236.39 239.86-283.62" fill="none" stroke="#f08c00" stroke-width="2"/>
+  </g>
+  <g transform="translate(469.56 502.91) rotate(0 120.65 -142.7)">
+   <path d="m232.98-261.64c2.32-9.95 7.04-16.66 8.62-23.47m-8.62 23.47c3.63-9.28 7.29-17.61 8.62-23.47" fill="none" stroke="#f08c00" stroke-width="2"/>
+  </g>
+  <g transform="translate(469.56 502.91) rotate(0 120.65 -142.7)">
+   <path d="m219.91-272.68c6.9-6.11 16.11-9.03 21.69-12.43m-21.69 12.43c8.72-5 17.44-9.06 21.69-12.43" fill="none" stroke="#f08c00" stroke-width="2"/>
+  </g>
+ </g>
+ <mask id="mask-amzXOc8ITvC8ZUDOH-ljH">
+  <rect width="810.18" height="887.05" fill="#fff"/>
+  <rect x="496.11" y="348.34" width="187.52" height="25"/>
+ </mask>
+ <g transform="translate(496.11 348.34) rotate(0 94.102 11.867)">
+  <text x="93.75990295410156" y="17.619999999999997" dominant-baseline="alphabetic" fill="#f08c00" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle" style="white-space:pre">2: Clone Bootstrap</text>
+ </g>
+ <g transform="translate(428.56 1435.2) rotate(0 233 537.5)">
+  <g fill="#1971c2" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">➜ /opt/certbot-repo-deployment</text>
+   <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">○</text>
+   <text y="67.62" dominant-baseline="alphabetic" style="white-space:pre">├── ansible.cfg</text>
+   <text y="92.62" dominant-baseline="alphabetic" style="white-space:pre">├── collections</text>
+   <text y="117.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── ansible_collections</text>
+   <text y="142.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── community</text>
+   <text y="167.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; ├── docker</text>
+   <text y="192.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; └── general</text>
+   <text y="217.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── community.docker-3.6.0.info</text>
+   <text y="242.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; └── GALAXY.yml</text>
+   <text y="267.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── community.general-12.4.0.info</text>
+   <text y="292.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── GALAXY.yml</text>
+   <text y="317.62" dominant-baseline="alphabetic" style="white-space:pre">├── deploy.yml</text>
+   <text y="342.62" dominant-baseline="alphabetic" style="white-space:pre">├── inventory</text>
+   <text y="367.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── hosts.ini</text>
+   <text y="392.62" dominant-baseline="alphabetic" style="white-space:pre">└── roles</text>
+   <text y="417.62" dominant-baseline="alphabetic" style="white-space:pre">└── certbot-repo-deployment</text>
+   <text y="442.62" dominant-baseline="alphabetic" style="white-space:pre">├── defaults</text>
+   <text y="467.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── main.yml</text>
+   <text y="492.62" dominant-baseline="alphabetic" style="white-space:pre">├── handlers</text>
+   <text y="517.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── main.yml</text>
+   <text y="542.62" dominant-baseline="alphabetic" style="white-space:pre">├── meta</text>
+   <text y="567.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── main.yml</text>
+   <text y="592.62" dominant-baseline="alphabetic" style="white-space:pre">├── README.md</text>
+   <text y="617.62" dominant-baseline="alphabetic" style="white-space:pre">├── tasks</text>
+   <text y="642.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── compose-up.yml</text>
+   <text y="667.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── docker-install.yml</text>
+   <text y="692.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── main.yml</text>
+   <text y="717.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── repo-checkout.yml</text>
+   <text y="742.62" dominant-baseline="alphabetic" style="white-space:pre">├── templates</text>
+   <text y="767.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── bind.ini.j2</text>
+   <text y="792.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── certificates.csv.j2</text>
+   <text y="817.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── cloudflare.ini.j2</text>
+   <text y="842.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── env.j2</text>
+   <text y="867.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── rfc2136.ini.j2</text>
+   <text y="892.62" dominant-baseline="alphabetic" style="white-space:pre">├── tests</text>
+   <text y="917.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── inventory</text>
+   <text y="942.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── test.yml</text>
+   <text y="967.62" dominant-baseline="alphabetic" style="white-space:pre">├── vars</text>
+   <text y="992.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── main.yml</text>
+   <text y="1017.62" dominant-baseline="alphabetic" style="white-space:pre">└── vault.yml.example</text>
+   <text y="1042.62" dominant-baseline="alphabetic" style="white-space:pre"/>
+   <text y="1067.62" dominant-baseline="alphabetic" style="white-space:pre">18 directories, 22 files</text>
+  </g>
+ </g>
+ <g transform="translate(10 103.33) rotate(0 87.222 42.5)" stroke-linecap="round">
+  <path d="m21.25 0c45.74-0.33 92.09 1.45 131.94 0m-131.94 0c37.02-0.5 73.83-1.85 131.94 0 14.23 0.12 22.06 6.9 21.25 21.25m-21.25-21.25c12.18-1.95 22.66 7.42 21.25 21.25-0.37 7.52-1.56 19.87 0 42.5m0-42.5c0.42 14.36 0.03 27.7 0 42.5 1.85 14.65-8.54 19.31-21.25 21.25m21.25-21.25c0.08 14.7-8.8 21.11-21.25 21.25-41.55 2.18-82.76 1.38-131.94 0m131.94 0c-28.58-0.48-56.21 0.55-131.94 0-15.74-1.13-23.07-8.81-21.25-21.25m21.25 21.25c-13.44 1.2-20.47-7.9-21.25-21.25-0.11-7.19 1.36-18.37 0-42.5m0 42.5c0.4-16.59 0.18-30.98 0-42.5-1.46-14.25 7.45-19.33 21.25-21.25m-21.25 21.25c-1.1-14.38 6.8-23.36 21.25-21.25" fill="none" stroke="#6741d9" stroke-width="2"/>
+ </g>
+ <g transform="translate(18.472 108.33) rotate(0 78.75 37.5)">
+  <g fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle">
+   <text x="78.74992370605469" y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">Docker Compose</text>
+   <text x="78.74992370605469" y="42.62" dominant-baseline="alphabetic" style="white-space:pre">Certbot RPM</text>
+   <text x="78.74992370605469" y="67.62" dominant-baseline="alphabetic" style="white-space:pre">Repo Stack</text>
+  </g>
+ </g>
+ <g transform="translate(344.44 100) rotate(0 96.111 48.889)" stroke-linecap="round">
+  <path d="m24.44 0c54.61-0.88 106.49 1.45 143.34 0m-143.34 0c57.63-1.28 113.09-0.39 143.34 0 15.09-1.05 24.75 9.8 24.44 24.44m-24.44-24.44c14.62 1.93 24.37 8.81 24.44 24.44 0.82 19.03 1.75 38.95 0 48.89m0-48.89c-0.11 9.63-0.25 19.32 0 48.89 0.85 17.33-7.62 25.36-24.44 24.45m24.44-24.45c0.29 16.81-9.55 24.03-24.44 24.45-44.82 1.52-88.15 2.92-143.34 0m143.34 0c-41.29-1.34-81.38-1.29-143.34 0-16.22-0.06-25.03-7.1-24.44-24.45m24.44 24.45c-17.55 1.86-23.18-7.45-24.44-24.45-0.33-15.13-2.22-30.17 0-48.89m0 48.89c-0.39-12.68-0.48-25.08 0-48.89 0.64-15.94 6.23-25.89 24.44-24.44m-24.44 24.44c-1.1-17.42 9.72-24.25 24.44-24.44" fill="none" stroke="#9c36b5" stroke-width="2"/>
+ </g>
+ <g transform="translate(358.58 111.39) rotate(0 81.98 37.5)">
+  <g fill="#9c36b5" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle">
+   <text x="81.97992706298828" y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">Ansible Role</text>
+   <text x="81.97992706298828" y="42.62" dominant-baseline="alphabetic" style="white-space:pre">Deploy Certbot</text>
+   <text x="81.97992706298828" y="67.62" dominant-baseline="alphabetic" style="white-space:pre">RPM Repo Stack</text>
+  </g>
+ </g>
+ <g stroke-linecap="round">
+  <g transform="translate(333.44 139.43) rotate(0 -69.383 -.54784)">
+   <path d="m0.39 0.21c-23.18-0.15-116.38-1.31-139.54-1.52m138.28 0.59c-22.81 0-113.05 0.38-136.17 0.49" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(333.44 139.43) rotate(0 -69.383 -.54784)">
+   <path d="m-113.59-8.88c-6.46 0.66-15.04 4.13-23.45 8.65m23.45-8.65c-5.2 1.32-11.29 4.32-23.45 8.65" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(333.44 139.43) rotate(0 -69.383 -.54784)">
+   <path d="m-113.51 8.22c-6.43-4.28-15.03-5.76-23.53-8.45m23.53 8.45c-5.34-2.97-11.45-4.26-23.53-8.45" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g transform="translate(700 95.556) rotate(0 117.22 57.778)" stroke-linecap="round">
+  <path d="m28.89 0c54.45 0.08 112.82-0.96 176.67 0m-176.67 0c67.85 0.63 134.88 1.78 176.67 0 20.1 0.43 28.85 11.55 28.88 28.89m-28.88-28.89c18.12-2.19 27.94 11.92 28.88 28.89-0.97 16.87 1.39 35.43 0 57.78m0-57.78c0.35 13.99 0.17 29.66 0 57.78-0.3 19.18-7.89 28.57-28.88 28.89m28.88-28.89c2.24 17.3-9.24 29.73-28.88 28.89-70.53-1.37-139.45 0.08-176.67 0m176.67 0c-57.84 0.86-117.81-0.08-176.67 0-18.07 0.38-27.6-8.55-28.89-28.89m28.89 28.89c-21.46-1.42-26.73-10.93-28.89-28.89 1.02-14.5 0.15-24.01 0-57.78m0 57.78c0.41-20.92-0.1-40.76 0-57.78 0.07-20.58 10.43-28.6 28.89-28.89m-28.89 28.89c-0.55-18.66 10-26.87 28.89-28.89" fill="none" stroke="#c2255c" stroke-width="2"/>
+ </g>
+ <g transform="translate(722.59 128.33) rotate(0 94.63 25)" fill="#c2255c" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle">
+  <text x="94.6299057006836" y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">Ansible Stand-alone</text>
+  <text x="94.6299057006836" y="42.62" dominant-baseline="alphabetic" style="white-space:pre">Bootstrap Script</text>
+ </g>
+ <g mask="url(#mask-gOIozzB3m5F42VCd_6JUb)" stroke-linecap="round">
+  <g transform="translate(366.67 334.44) rotate(0 -.42498 51.095)">
+   <path d="m-0.63-0.67c-0.27 16.88-0.67 85.18-0.88 102.3m2.75-100.03c-0.37 17-2.71 84.3-3.33 101.26" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(366.67 334.44) rotate(0 -.42498 51.095)">
+   <path d="m-9.81 79.08c1.34 8.52 3.83 15.22 7.72 23.78m-7.72-23.78c1.65 6.14 4.67 13.63 7.72 23.78" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(366.67 334.44) rotate(0 -.42498 51.095)">
+   <path d="m7.28 79.68c-3.91 8.25-6.67 14.76-9.37 23.18m9.37-23.18c-3.27 5.82-5.16 13.14-9.37 23.18" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+ </g>
+ <mask id="mask-gOIozzB3m5F42VCd_6JUb">
+  <rect width="468.89" height="536.67" fill="#fff"/>
+  <rect x="304.98" y="373.06" width="121.16" height="25"/>
+ </mask>
+ <g transform="translate(304.98 373.06) rotate(0 61.266 12.484)">
+  <text x="60.57996368408203" y="17.619999999999997" dominant-baseline="alphabetic" fill="#2f9e44" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle" style="white-space:pre">1: Deploy VM</text>
+ </g>
+ <g transform="translate(318.89 300) rotate(0 51.85 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#2f9e44" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">Start Here</text>
+ </g>
+ <g mask="url(#mask-Ip6luyLEzBgX4KLQGrkhD)" stroke-linecap="round">
+  <g transform="translate(388.29 609.22) rotate(0 62.067 120.15)">
+   <path d="m-0.38 1.17c20.7 39.78 104.35 198.89 124.89 238.39m-122.89-238.82c20.59 39.36 101.77 197.37 122.39 237.1" fill="none" stroke="#e8590c" stroke-width="2"/>
+  </g>
+  <g transform="translate(388.29 609.22) rotate(0 62.067 120.15)">
+   <path d="m105.64 220.89c8.1 7.04 13.47 9.88 18.37 16.95m-18.37-16.95c4.03 4.44 8.65 9.2 18.37 16.95" fill="none" stroke="#e8590c" stroke-width="2"/>
+  </g>
+  <g transform="translate(388.29 609.22) rotate(0 62.067 120.15)">
+   <path d="m120.84 213.05c3.17 9.56 3.56 14.97 3.17 24.79m-3.17-24.79c0.26 6.38 1.11 13.08 3.17 24.79" fill="none" stroke="#e8590c" stroke-width="2"/>
+  </g>
+ </g>
+ <mask id="mask-Ip6luyLEzBgX4KLQGrkhD">
+  <rect width="611.95" height="948" fill="#fff"/>
+  <rect x="344.74" y="716.11" width="210.76" height="25"/>
+ </mask>
+ <g transform="translate(344.74 716.11) rotate(0 105.62 13.26)">
+  <text x="105.37989044189453" y="17.619999999999997" dominant-baseline="alphabetic" fill="#e8590c" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle" style="white-space:pre">3: Execute bootstrap</text>
+ </g>
+ <a href="https://github.com/dx-zone/certbot-rpm-mtls-repo/tree/main">
+  <g transform="translate(40 17.778) rotate(0 52.92 12.5)">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#1e1e1e" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">Repository</text>
+  </g>
+ </a>
+ <a href="https://github.com/dx-zone/certbot-repo-deployment">
+  <g transform="translate(395.9 16.389) rotate(0 52.92 12.5)">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#1e1e1e" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">Repository</text>
+  </g>
+ </a>
+ <a href="https://github.com/dx-zone/certbot-repo-deployment-bootstrap">
+  <g transform="translate(758.89 10) rotate(0 52.92 12.5)">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#1e1e1e" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">Repository</text>
+  </g>
+ </a>
+ <g stroke-linecap="round">
+  <g transform="translate(689 142.41) rotate(0 -70.865 .48172)">
+   <path d="m0.96 0.26c-23.79 0.14-118.75-0.2-142.56-0.13m141.61-0.78c-24.07 0.4-118.88 2.38-142.7 2.25" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(689 142.41) rotate(0 -70.865 .48172)">
+   <path d="m-119.28-7.17c-8.84 3.19-18.71 6.18-23.41 8.77m23.41-8.77c-8.47 3.86-15.08 6.62-23.41 8.77" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(689 142.41) rotate(0 -70.865 .48172)">
+   <path d="m-119.12 9.93c-8.81-3.54-18.74-7.3-23.57-8.33m23.57 8.33c-8.59-1.91-15.25-4.92-23.57-8.33" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g stroke-linecap="round">
+  <g transform="translate(590 1748.9) rotate(0 111.65 42.209)">
+   <path d="m0.82 0.98c35.68 2.52 185.18 0.5 213.54 14.15s-35.84 56.55-43.39 67.76m-171.18-82.44c36.01 2.17 188.17-1.01 216.65 12.91 28.49 13.92-37.79 59.01-45.73 70.61" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(590 1748.9) rotate(0 111.65 42.209)">
+   <path d="m181.91 61.62c-1.96 5.25-6.04 16.02-11.2 22.35m11.2-22.35c-3.52 5.39-5.58 11.98-11.2 22.35" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(590 1748.9) rotate(0 111.65 42.209)">
+   <path d="m193.66 74.05c-5.73 1.34-13.57 8.13-22.95 9.92m22.95-9.92c-6.51 2.03-11.66 5.35-22.95 9.92" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g stroke-linecap="round">
+  <g transform="translate(716.67 2451.1) rotate(0 1.4513 -18.314)">
+   <path d="m0.88-0.5c9.92-5.61 68.34-29.42 58.65-34.24-9.68-4.83-97.23 4.44-116.76 5.3m57.11 27.63c9.82-5.33 68.64-26.61 59.04-31.55-9.6-4.95-97.26 1.02-116.63 1.88" fill="none" stroke="#e03131" stroke-width="2"/>
+  </g>
+  <g transform="translate(716.67 2451.1) rotate(0 1.4513 -18.314)">
+   <path d="m-34.71-41.28c-7.83 4.18-14.39 6.96-23 9.8m23-9.8c-7.36 3.5-16.78 6.97-23 9.8" fill="none" stroke="#e03131" stroke-width="2"/>
+  </g>
+  <g transform="translate(716.67 2451.1) rotate(0 1.4513 -18.314)">
+   <path d="m-33.79-24.21c-7.95-0.93-14.79-3.28-23.92-7.27m23.92 7.27c-7.7-2.42-17.44-4.87-23.92-7.27" fill="none" stroke="#e03131" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g transform="translate(793.33 2395.6) rotate(0 153.62 62.5)">
+  <g fill="#e03131" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">Recommend to render</text>
+   <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">secrets from</text>
+   <text y="67.62" dominant-baseline="alphabetic" style="white-space:pre">Ansible Vault or Hashicorp Vault</text>
+   <text y="92.62" dominant-baseline="alphabetic" style="white-space:pre">to avoid hard-coding</text>
+   <text y="117.62" dominant-baseline="alphabetic" style="white-space:pre">sensitive information</text>
+  </g>
+ </g>
+ <g transform="translate(434.89 859) rotate(0 172.17 25)" fill="#2f9e44" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">Overview: Bootstrap Execution</text>
+  <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">(init, check, deploy, cleanup)</text>
+ </g>
+ <g stroke-linecap="round">
+  <g transform="translate(432.33 913.33) rotate(0 -.0040406 250.43)">
+   <path d="m1.16-1.18c-0.29 83.5-1.97 418.02-2.32 501.73m1.46-499.73c0.03 83.73 0.46 418.19 0.64 501.21" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(432.33 913.33) rotate(0 -.0040406 250.43)">
+   <path d="m-7.65 478.55c0.9 6.05 5.62 14.41 8.59 23.48m-8.59-23.48c2.03 8.23 5.29 14.86 8.59 23.48" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+  <g transform="translate(432.33 913.33) rotate(0 -.0040406 250.43)">
+   <path d="m9.45 478.53c-4.97 6.21-6.12 14.58-8.51 23.5m8.51-23.5c-3.7 8.16-6.17 14.8-8.51 23.5" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g transform="translate(487.67 934.67) rotate(0 69.5 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Install UV</text>
+ </g>
+ <g transform="translate(486.22 975.11) rotate(0 203.33 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Set Python3 environment with UV tool</text>
+ </g>
+ <g transform="translate(488 1016) rotate(0 281.11 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Setup Ansible + dependencies with UV managed Python3</text>
+ </g>
+ <g transform="translate(487.11 1058.7) rotate(0 249.78 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Git clone Ansible role: certbot-repo-deployment</text>
+ </g>
+ <g transform="translate(480.78 1181.7) rotate(0 286.17 25)" fill="#e03131" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">- Recommended: replace vars/main.yml with Hashicorp Vault</text>
+  <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">rendered vars/values ( ansible lookup() )</text>
+ </g>
+ <g transform="translate(486.33 1303.8) rotate(0 106.68 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#099268" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Execute Ansible role</text>
+ </g>
+ <g transform="translate(488.11 1105.3) rotate(0 278.89 25)" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">- Create Ansible environment files:</text>
+  <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">ansible.cfg, inventory, deploy.yml, etc.</text>
+ </g>
+ <g transform="translate(485.11 1353.8) rotate(0 321.71 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#e03131" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Wipe entire working directory (won't remove/affect deployments)</text>
+ </g>
+ <g transform="translate(458.44 917.44) rotate(0 310 123.89)" stroke-linecap="round">
+  <path d="m32 0c150.18-1.91 301.19-1.88 556 0m-556 0c190.12 0.76 381.11 0.29 556 0 19.45-0.69 30.91 10.97 32 32m-32-32c19.77-0.2 32.75 9.31 32 32-1.13 66.03-0.65 135.11 0 183.78m0-183.78c0.59 63.64-0.34 128.96 0 183.78 0.68 22.94-9.74 33.38-32 32m32-32c1.39 20.29-10.24 31.58-32 32-122.26 0.18-242.89 1.41-556 0m556 0c-112.42-1.14-224.65-1.38-556 0-21.46-0.62-31.41-9.01-32-32m32 32c-21.58-0.27-30.67-11.62-32-32 0.16-70.15 3.05-143.02 0-183.78m0 183.78c0.64-42.03 0.69-84.18 0-183.78-0.86-20.14 10.3-32.64 32-32m-32 32c1.72-20.63 9.15-32.46 32-32" fill="none" stroke="#6741d9" stroke-width="2"/>
+ </g>
+ <g transform="translate(327.78 1013.3) rotate(0 25.79 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#6741d9" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">INIT</text>
+ </g>
+ <g transform="translate(318.88 1304.5) rotate(0 40.59 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#099268" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">DEPLOY</text>
+ </g>
+ <g transform="translate(313.97 1358.6) rotate(0 45.84 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#e03131" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">CLEANUP</text>
+ </g>
+ <g transform="translate(484.21 1255.1) rotate(0 345.28 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#f08c00" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">- Execute Ansible role in dry run mode (test the role but don't deploy)</text>
+ </g>
+ <g transform="translate(328.05 1255.3) rotate(0 31.51 12.5)">
+  <text y="17.619999999999997" dominant-baseline="alphabetic" fill="#f08c00" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" style="white-space:pre">CHECK</text>
+ </g>
+ <g transform="translate(436.67 2844.4) rotate(0 1049.6 562.5)">
+  <g fill="#2f9e44" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px">
+   <text y="17.619999999999997" dominant-baseline="alphabetic" style="white-space:pre">○ tree /opt/certbot/ -L 3 11:15</text>
+   <text y="42.62" dominant-baseline="alphabetic" style="white-space:pre">/opt/certbot/</text>
+   <text y="67.62" dominant-baseline="alphabetic" style="white-space:pre">│</text>
+   <text y="92.62" dominant-baseline="alphabetic" style="white-space:pre">├── certbot</text>
+   <text y="117.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── Dockerfile</text>
+   <text y="142.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── files</text>
+   <text y="167.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── cert2rpm.sh</text>
+   <text y="192.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── certbot_manager.py</text>
+   <text y="217.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── certificates.csv</text>
+   <text y="242.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── README</text>
+   <text y="267.62" dominant-baseline="alphabetic" style="white-space:pre">├── client</text>
+   <text y="292.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── Dockerfile</text>
+   <text y="317.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── files</text>
+   <text y="342.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── client-entrypoint.sh</text>
+   <text y="367.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── etc_yum.repos.d_cert.repo</text>
+   <text y="392.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── validate_client_to_rpmrepo_mtls.sh</text>
+   <text y="417.62" dominant-baseline="alphabetic" style="white-space:pre">├── datastore</text>
+   <text y="442.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── certbot-data</text>
+   <text y="467.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; └── letsencrypt</text>
+   <text y="492.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── rpmrepo-data</text>
+   <text y="517.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── rpms</text>
+   <text y="542.62" dominant-baseline="alphabetic" style="white-space:pre">├── docker-compose.yml</text>
+   <text y="567.62" dominant-baseline="alphabetic" style="white-space:pre">├── manage-certbo-repo-client-stack.sh</text>
+   <text y="592.62" dominant-baseline="alphabetic" style="white-space:pre">├── quick-commands.sh</text>
+   <text y="617.62" dominant-baseline="alphabetic" style="white-space:pre">├── quick-test-commands.sh</text>
+   <text y="642.62" dominant-baseline="alphabetic" style="white-space:pre">├── README.md</text>
+   <text y="667.62" dominant-baseline="alphabetic" style="white-space:pre">├── rpmrepo</text>
+   <text y="692.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── Dockerfile</text>
+   <text y="717.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── files</text>
+   <text y="742.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; ├── generate_mtls_client_ca.sh</text>
+   <text y="767.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; ├── README</text>
+   <text y="792.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; ├── repo_with_auth.conf.template</text>
+   <text y="817.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; └── rpmrepo-entrypoint.sh</text>
+   <text y="842.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── httpd_restart.sh</text>
+   <text y="867.62" dominant-baseline="alphabetic" style="white-space:pre">├── rpmrepo-mtls-audit-rotation.sh</text>
+   <text y="892.62" dominant-baseline="alphabetic" style="white-space:pre">├── secrets</text>
+   <text y="917.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── certbot-secrets</text>
+   <text y="942.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; │<nbsp/>#160;<nbsp/>#160; └── ini</text>
+   <text y="967.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── rpmrepo-secrets</text>
+   <text y="992.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; ├── generate_mtls_client_ca.sh</text>
+   <text y="1017.62" dominant-baseline="alphabetic" style="white-space:pre">│<nbsp/>#160;<nbsp/>#160; └── pki_mtls_material</text>
+   <text y="1042.62" dominant-baseline="alphabetic" style="white-space:pre">├── validate-pki-pipeline.sh</text>
+   <text y="1067.62" dominant-baseline="alphabetic" style="white-space:pre">└── verify-rpm-repo.sh</text>
+   <text y="1092.62" dominant-baseline="alphabetic" style="white-space:pre"/>
+   <text y="1117.62" dominant-baseline="alphabetic" style="white-space:pre">24 directories, 29 files</text>
+  </g>
+ </g>
+ <g transform="translate(415.56 2646.7) rotate(0 283.33 50)" stroke-linecap="round">
+  <path d="m25 0c187.26 2.16 376.26 2.58 516.67 0m-516.67 0c201.45-1.98 402.92-1.94 516.67 0 15.37-1.62 25.2 9.51 25 25m-25-25c14.85-0.69 25.68 8.39 25 25-1.26 9.66-1.32 22.39 0 50m0-50c0.78 14.05-0.31 27.52 0 50 1.88 15.83-7.71 26.08-25 25m25-25c-0.02 14.78-7.1 26.79-25 25-187.98-1.55-375.48-0.87-516.67 0m516.67 0c-135.44 0.15-270.96-0.04-516.67 0-17.32 1.55-23.21-9-25-25m25 25c-16.42-1.44-26.17-9.99-25-25-0.67-11.3 0.38-22.61 0-50m0 50c-0.04-16.48 0.63-33.83 0-50-0.81-18.39 9.79-24.08 25-25m-25 25c1.88-15.82 9.17-23.55 25-25" fill="none" stroke="#2f9e44" stroke-width="2"/>
+ </g>
+ <g transform="translate(463.38 2684.2) rotate(0 235.51 12.5)">
+  <text x="235.50979614257812" y="17.619999999999997" dominant-baseline="alphabetic" fill="#2f9e44" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" text-anchor="middle" style="white-space:pre">Certbot RPM Repo Deployed by the Ansible Roe</text>
+ </g>
+ <g stroke-linecap="round">
+  <g transform="translate(654.26 2757.7) rotate(0 -.46892 38.587)">
+   <path d="m-1.03 1.19c0.11 12.73 0.63 62.67 0.71 75.21m0.95-75.63c-0.01 12.37-2.41 61.55-2.18 73.84" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(654.26 2757.7) rotate(0 -.46892 38.587)">
+   <path d="m-9.64 50.95c3.76 4.33 4.58 9.17 8.09 23.66m-8.09-23.66c2 9.27 4.93 17.36 8.09 23.66" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+  <g transform="translate(654.26 2757.7) rotate(0 -.46892 38.587)">
+   <path d="m7.45 51.28c0.03 4.11-2.88 8.88-9 23.33m9-23.33c-4.08 9.29-7.24 17.27-9 23.33" fill="none" stroke="#2f9e44" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+ <g stroke-linecap="round">
+  <g transform="translate(656.95 2521.2) rotate(0 -.13859 57.639)">
+   <path d="m0.06 0.99c-0.34 18.95-1.11 94.99-1.18 113.83m-0.25-114.36c-0.06 19.09 2.44 93.32 2.46 112.43" fill="none" stroke="#1971c2" stroke-width="2"/>
+  </g>
+  <g transform="translate(656.95 2521.2) rotate(0 -.13859 57.639)">
+   <path d="m-7.9 89.56c5.27 7.26 7.65 17.35 8.99 23.33m-8.99-23.33c2.8 5.25 3.71 12.49 8.99 23.33" fill="none" stroke="#1971c2" stroke-width="2"/>
+  </g>
+  <g transform="translate(656.95 2521.2) rotate(0 -.13859 57.639)">
+   <path d="m9.2 89.24c-1.21 7.39-5.31 17.6-8.11 23.65m8.11-23.65c-1.76 5.36-5.4 12.69-8.11 23.65" fill="none" stroke="#1971c2" stroke-width="2"/>
+  </g>
+ </g>
+ <mask/>
+</svg>
