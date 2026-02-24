@@ -15,4 +15,4 @@ __pycache__/
 *.pyc
 
 # Virtual environments
-.venv/
+.venv/*.log
