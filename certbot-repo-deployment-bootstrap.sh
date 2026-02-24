@@ -106,7 +106,7 @@ acquire_lock() {
 
 # --- Helpers ---
 resolve_real_user_ids() {
-    if ! id "$REAL_USER" >/dev/null 2>&1; then
+    if ! id "$REAL_USER" > /dev/null 2>&1; then
         log_error "Unable to resolve REAL_USER='$REAL_USER' via 'id'. Check SSSD/LDAP/AD or sudo context."
         exit 1
     fi
@@ -122,7 +122,7 @@ chown_workdir() {
 check_dependencies() {
     local deps=("curl" "git" "python3")
     for dep in "${deps[@]}"; do
-        if ! command -v "$dep" >/dev/null 2>&1; then
+        if ! command -v "$dep" > /dev/null 2>&1; then
             log_error "Required dependency '$dep' is missing. Aborting."
             exit 1
         fi
@@ -219,19 +219,19 @@ configure_ansible() {
 
     mkdir -p "$WORKING_DIR/inventory"
 
-    cat >"$WORKING_DIR/ansible.cfg" <<EOF
+    cat > "$WORKING_DIR/ansible.cfg" << EOF
 [defaults]
 roles_path = ./roles
 collections_paths = ./collections
 inventory = ./inventory/hosts.ini
 EOF
 
-    cat >"$WORKING_DIR/inventory/hosts.ini" <<EOF
+    cat > "$WORKING_DIR/inventory/hosts.ini" << EOF
 [certbot_hosts]
 localhost ansible_connection=local
 EOF
 
-    cat >"$WORKING_DIR/deploy.yml" <<EOF
+    cat > "$WORKING_DIR/deploy.yml" << EOF
 - name: Deploy certbot-rpm-mtls-repo via Ansible role
   hosts: certbot_hosts
   become: true
